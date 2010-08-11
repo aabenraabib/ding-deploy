@@ -214,6 +214,19 @@ projects[ting][type] = "module"
 projects[ting][download][type] = "git" 
 projects[ting][download][url] = "git://github.com/dingproject/ting.git"
 
+; Aabenraa-specific modules
+
+projects[aabenraa][type] = "theme"
+projects[aabenraa][download][type] = "git"
+projects[aabenraa][download][url] = "git://github.com/aabenraabib/aabenraa.git"
+
+projects[backup_migrate][subdir] = "contrib"
+projects[backup_migrate][version] = "2.2"
+
+projects[memcache][subdir] = "contrib"
+projects[memcache][version] = "1.5"
+
+
 ; Libraries
 libraries[ting-client][download][type] = "git"
 libraries[ting-client][download][url] = "git://github.com/dingproject/ting-client.git"
