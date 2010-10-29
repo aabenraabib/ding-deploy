@@ -124,7 +124,7 @@ projects[oembed][version] = "0.6"
 projects[office_hours][type] = "module"
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][download][type] = "git"
-projects[office_hours][download][url] = "git://github.com/mikl/drupal-office_hours.git"
+projects[office_hours][download][url] = "http://github.com/mikl/drupal-office_hours.git"
 projects[office_hours][download][tag] = "DRUPAL-6--2-0-UNOFFICIAL4"
 
 projects[panels][subdir] = "contrib"
