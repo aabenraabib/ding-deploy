@@ -5,7 +5,7 @@ projects[] = drupal
 ; Contrib projects
 
 projects[admin][subdir] = "contrib"
-projects[admin][version] = "2.0-beta6"
+projects[admin][version] = "2.0"
 
 projects[admin_language][subdir] = "contrib"
 projects[admin_language][version] = "1.4"
@@ -14,7 +14,7 @@ projects[admin_theme][subdir] = "contrib"
 projects[admin_theme][version] = "1.3"
 
 projects[adminrole][subdir] = "contrib"
-projects[adminrole][version] = "1.2"
+projects[adminrole][version] = "1.3"
 
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.2"
@@ -47,7 +47,7 @@ projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.7"
 
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.4"
+projects[date][version] = "2.6"
 
 projects[dibs][subdir] = "contrib"
 projects[dibs][version] = "1.x-dev"
@@ -59,7 +59,7 @@ projects[environment_indicator][subdir] = "contrib"
 projects[environment_indicator][version] = "1.0"
 
 projects[features][subdir] = "contrib"
-projects[features][version] = "1.0-beta12"
+projects[features][version] = "1.0"
 
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.7"
@@ -69,6 +69,7 @@ projects[insert][version] = "1.0-beta6"
 
 projects[flexifield][subdir] = "contrib"
 projects[flexifield][version] = "1.0-alpha5"
+projects[flexifield][patch][] = "http://drupal.org/files/issues/flexifield-390480-22.patch"
 
 projects[globalredirect][subdir] = "contrib"
 projects[globalredirect][version] = "1.2"
@@ -77,7 +78,7 @@ projects[gmap][subdir] = "contrib"
 projects[gmap][version] = "1.1"
 
 projects[google_analytics][subdir] = "contrib"
-projects[google_analytics][version] = "2.2"
+projects[google_analytics][version] = "3.0"
 
 projects[htmLawed][subdir] = "contrib"
 projects[htmLawed][version] = "2.7"
@@ -98,7 +99,7 @@ projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.7"
 
 projects[jquery_ui][subdir] = "contrib"
-projects[jquery_ui][version] = "1.3"
+projects[jquery_ui][version] = "1.4"
 
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "1.1"
@@ -118,14 +119,20 @@ projects[markdown][version] = "1.2"
 projects[masquerade][subdir] = "contrib"
 projects[masquerade][version] = "1.4"
 
+projects[menu_breadcrumb][subdir] = "contrib"
+projects[menu_breadcrumb][version] = "1.3"
+
+projects[menu_block][subdir] = "contrib"
+projects[menu_block][version] = "2.3"
+
 projects[oembed][subdir] = "contrib"
 projects[oembed][version] = "0.6"
 
 projects[office_hours][type] = "module"
 projects[office_hours][subdir] = "contrib"
 projects[office_hours][download][type] = "git"
-projects[office_hours][download][url] = "http://github.com/mikl/drupal-office_hours.git"
-projects[office_hours][download][tag] = "DRUPAL-6--2-0-UNOFFICIAL4"
+projects[office_hours][download][url] = "https://github.com/xendk/drupal-office_hours.git"
+projects[office_hours][download][tag] = "DRUPAL-6--2-0-UNOFFICIAL5"
 
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.7"
@@ -143,7 +150,7 @@ projects[purl][subdir] = "contrib"
 projects[purl][version] = "1.0-beta13"
 
 projects[rules][subdir] = "contrib"
-projects[rules][version] = "1.2"
+projects[rules][version] = "1.3"
 
 projects[similarterms][subdir] = "contrib"
 projects[similarterms][version] = "1.18"
@@ -179,7 +186,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_bulk_operations][version] = "1.9"
 
 projects[webform][subdir] = "contrib"
-projects[webform][version] = "3.0-beta6"
+projects[webform][version] = "3.2"
 
 projects[wysiwyg][subdir] = "contrib"
 projects[wysiwyg][version] = "2.1"
@@ -195,49 +202,40 @@ projects[mothership][version] = "1.1"
 
 projects[dynamo][type] = "theme"
 projects[dynamo][download][type] = "git"
-projects[dynamo][download][url] = "git://github.com/dingproject/dynamo.git"
+projects[dynamo][download][url] = "https://github.com/dingproject/dynamo.git"
+projects[dynamo][download][revision] = "v2.1.0"
 
 ; Ding modules
 
 projects[alma][type] = "module"
 projects[alma][download][type] = "git"
-projects[alma][download][url] = "git://github.com/dingproject/alma.git"
-projects[alma][download][branch] = "v2.0.x"
+projects[alma][download][url] = "https://github.com/dingproject/alma.git"
+projects[alma][download][revision] = "v1.5.0rc1"
 
 projects[openruth][type] = "module"
 projects[openruth][download][type] = "git"
-projects[openruth][download][url] = "git://github.com/dingproject/openruth.git"
+projects[openruth][download][url] = "https://github.com/dingproject/openruth.git"
+projects[openruth][download][revision] = "v1.0"
 
 projects[ding][type] = "module"
 projects[ding][download][type] = "git"
-projects[ding][download][url] = "git://github.com/dingproject/ding.git"
-projects[ding][download][branch] = "v2.0.x"
+projects[ding][download][url] = "https://github.com/dingproject/ding.git"
+projects[ding][download][revision] = "v1.5.0rc1"
 
 projects[ding_campaign][type] = "module"
 projects[ding_campaign][download][type] = "git"
-projects[ding_campaign][download][url] = "git://github.com/dingproject/ding-campaign.git"
+projects[ding_campaign][download][url] = "https://github.com/dingproject/ding-campaign.git"
+projects[ding_campaign][download][revision] = "v1.3.0"
 
 projects[ting][type] = "module"
 projects[ting][download][type] = "git"
-projects[ting][download][url] = "git://github.com/dingproject/ting.git"
-projects[ting][download][branch] = "v2.0.x"
-
-; Aabenraa-specific modules
-
-projects[aabenraa][type] = "theme"
-projects[aabenraa][download][type] = "git"
-projects[aabenraa][download][url] = "git://github.com/aabenraabib/aabenraa.git"
-
-projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.2"
-
-projects[memcache][subdir] = "contrib"
-projects[memcache][version] = "1.5"
-
+projects[ting][download][url] = "https://github.com/dingproject/ting.git"
+projects[ting][download][revision] = "v1.5.0rc1"
 
 ; Libraries
 libraries[ting-client][download][type] = "git"
-libraries[ting-client][download][url] = "git://github.com/dingproject/ting-client.git"
+libraries[ting-client][download][url] = "https://github.com/dingproject/ting-client.git"
+libraries[ting-client][download][revision] = "v1.0.0"
 libraries[ting-client][destination] = "modules/ting/lib"
 
 libraries[jquery_ui][download][type] = "get"
