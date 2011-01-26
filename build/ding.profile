@@ -140,6 +140,7 @@ function _ding_profile_modules() {
     'ting_search_autocomplete',
     'ting_search_carousel',
     'dynamo',
+    'trampoline',
   );
 }
 
